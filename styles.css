@@ -19,9 +19,18 @@ ul {
     list-style-type: none;
 }
 
+/* covers all elements within the dark background at the top */
 .top {
     background-color: #1F2937;
     color: white;
+    padding: 10px 40px 40px;
+    margin-bottom: 32px;
+}
+
+/* header start */
+
+.header {
+    margin-bottom: 56px;
 }
 
 .header ul {
@@ -43,7 +52,32 @@ ul {
 .links {
     display: flex;
     gap: 24px;
-    margin-right: 12px;
+    margin-right: 24px;
+}
+
+/* header end */
+
+/* 'first' start */
+
+.first {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.first-left {
+    margin-left: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.first-left-sign-up {
+    padding: 8px 24px;
+    border-radius: 10px;
+    width: 128px;
+    font-weight: bold;
+    font-size: 16px;
 }
 
 .hero-main {
@@ -56,3 +90,15 @@ ul {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.first-right {
+    margin-right: 24px;
+}
+
+.first-right img {
+    width: 300px;
+    height: auto;
+}
+
+/* 'first' end */
+
