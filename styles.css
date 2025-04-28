@@ -10,14 +10,40 @@ body {
     font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
+button {
+    background-color: #3882F6;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
 .top {
     background-color: #1F2937;
     color: white;
 }
 
+.header ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+}
+
+.logo {
+    margin-left: 128px;
+}
+
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    gap: 24px;
+    margin-right: 12px;
 }
 
 .hero-main {
