@@ -157,3 +157,38 @@ ul {
 }
 
 /* 'third' end */
+
+/* 'fourth' start */
+
+.fourth {
+    padding: 32px;
+    margin-left: 32px;
+}
+
+.box {
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.box-left-heading {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.box-left-text {
+    font-weight: 400;
+    color: rgb(245, 240, 240);
+}
+
+.box-right-sign-up {
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 8px 24px;
+    font-weight: bold;
+    font-size: 16px;
+}
