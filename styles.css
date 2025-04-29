@@ -52,7 +52,7 @@ ul {
 .links {
     display: flex;
     gap: 24px;
-    margin-right: 24px;
+    margin-right: 12px;
 }
 
 /* header end */
@@ -135,3 +135,25 @@ ul {
 }
 
 /* 'second' end */
+
+/* 'third' start */
+
+.third {
+    background-color: #E5E7EB;
+    padding: 80px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin-left: 32px;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+
+/* 'third' end */
